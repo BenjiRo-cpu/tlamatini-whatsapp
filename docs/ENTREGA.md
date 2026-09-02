@@ -33,9 +33,10 @@ El acceso a contenidos históricos suele depender de materiales extensos y poco 
 - Evento `Incoming Message` entregado correctamente desde el panel de Meta al webhook en la prueba final.
 - Firma HMAC activada con el App Secret real y validada antes de entregar.
 
-## Pendientes finales
+## Entrega final
 
-- URL pública final del repositorio de GitHub.
+- Repositorio público: https://github.com/BenjiRo-cpu/tlamatini-whatsapp
+- Proyecto enviado correctamente en el campus de DEV.F.
 
 ## Descripción para el campus
 
