@@ -30,11 +30,11 @@ El acceso a contenidos históricos suele depender de materiales extensos y poco 
 - Webhook verificado por Meta mediante el desafío `hub.challenge` y respuesta HTTP 200.
 - Campo `messages` suscrito en la versión v26.0.
 - Mensaje real de plantilla recibido desde el número de prueba de WhatsApp.
-- Firma HMAC activada con el App Secret real; la validación final se repite antes de entregar.
+- Evento `Incoming Message` entregado correctamente desde el panel de Meta al webhook en la prueba final.
+- Firma HMAC activada con el App Secret real y validada antes de entregar.
 
 ## Pendientes finales
 
-- Captura de `/metrics` después de la prueba firmada.
 - URL pública final del repositorio de GitHub.
 
 ## Descripción para el campus

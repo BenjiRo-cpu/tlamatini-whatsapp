@@ -161,6 +161,14 @@ El número de prueba de WhatsApp Cloud API envió correctamente la plantilla ofi
 
 Durante la conexión final también se verificó el webhook mediante `hub.challenge`, se suscribió el campo `messages` y se mantuvo activa la validación HMAC-SHA256 con el App Secret de Meta.
 
+<p align="center">
+  <img src="docs/evidencias/meta-webhook-configurado.png" alt="Campo messages de WhatsApp suscrito en Meta Webhooks v26.0" width="820">
+</p>
+
+El panel de Meta confirmó además la entrega correcta de un evento de prueba `Incoming Message` al servidor. Las capturas se recortaron para no publicar tokens de acceso, secretos de aplicación ni teléfonos personales.
+
+> **Nota sobre los tokens:** el token de acceso que genera el panel de prueba de Meta es temporal y puede volver a mostrarse como “Not generated yet” después de abandonar la página. No es el token de verificación del webhook ni significa que `.env` se haya borrado. Para producción debe utilizarse un token permanente de usuario del sistema y un gestor de secretos.
+
 ## Despliegue
 
 Para la demostración se utilizó un túnel temporal de Cloudflare hacia el servidor local. Este mecanismo es adecuado para una prueba controlada, pero no se presenta como infraestructura productiva. El `Dockerfile` permite mover el agente a un servidor continuo. En producción deben agregarse un gestor de secretos, HTTPS, una cola de tareas, almacenamiento administrado y alertas sobre errores y latencia.

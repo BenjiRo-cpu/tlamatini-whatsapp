@@ -7,5 +7,6 @@ __pycache__/
 .coverage
 htmlcov/
 data/*.db
+data/*.db-*
 data/qdrant/
 logs/
