@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "Tenochtitlan",
+    "difficulty": "básico",
+    "question": "¿En qué año sitúa la tradición la fundación de México-Tenochtitlan?",
+    "options": {"A": "1200", "B": "1325", "C": "1428", "D": "1521"},
+    "answer": "B",
+    "explanation": "La tradición histórica sitúa su fundación en 1325."
+  },
+  {
+    "topic": "Triple Alianza",
+    "difficulty": "básico",
+    "question": "¿Qué ciudades integraron la Triple Alianza?",
+    "options": {"A": "Tenochtitlan, Texcoco y Tlacopan", "B": "Tula, Cholula y Xochicalco", "C": "Tenochtitlan, Cuzco y Palenque", "D": "Texcoco, Teotihuacan y Tula"},
+    "answer": "A",
+    "explanation": "La alianza estuvo formada por México-Tenochtitlan, Texcoco y Tlacopan."
+  },
+  {
+    "topic": "Economía",
+    "difficulty": "intermedio",
+    "question": "¿Quiénes eran los pochtecas?",
+    "options": {"A": "Sacerdotes de Tláloc", "B": "Agricultores de chinampas", "C": "Comerciantes especializados de larga distancia", "D": "Gobernantes de Texcoco"},
+    "answer": "C",
+    "explanation": "Los pochtecas eran comerciantes especializados que recorrían grandes distancias."
+  },
+  {
+    "topic": "Educación",
+    "difficulty": "intermedio",
+    "question": "¿Qué institución se asociaba principalmente con la formación religiosa y administrativa de élite?",
+    "options": {"A": "Telpochcalli", "B": "Calmécac", "C": "Tianguis", "D": "Chinampa"},
+    "answer": "B",
+    "explanation": "El calmécac se vinculaba principalmente con esa formación especializada."
+  },
+  {
+    "topic": "Conquista",
+    "difficulty": "avanzado",
+    "question": "¿Cuál combinación explica mejor la caída de México-Tenochtitlan?",
+    "options": {"A": "Solo superioridad tecnológica española", "B": "Únicamente una sequía", "C": "Alianzas indígenas, viruela y sitio de la ciudad", "D": "Abandono voluntario de la capital"},
+    "answer": "C",
+    "explanation": "Fue un proceso multicausal que incluyó alianzas indígenas, epidemia y bloqueo militar."
+  }
+]
